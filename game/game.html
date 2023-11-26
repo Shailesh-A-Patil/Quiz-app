@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="./game.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="insights">
+        <div>
+          <p class="prefix">Question</p>
+          <p id="loading" class="text"></p>
+        </div>
+        <div>
+          <p class="prefix">Score</p>
+          <p id="score" class="text"></p>
+        </div>
+      </div>
+      <div id="question-options">
+        <h2 id="question">Question</h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">4</p>
+        </div>
+        <div id="next-submit">
+          <button id="nextbtn">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="./game.js"></script>
+  </body>
+</html>
